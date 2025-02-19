@@ -1,4 +1,4 @@
-# React + Vite
+# Liquid Galaxy Presentation
 
 This application is used for the Liquid Galaxy streaming series. You can find more information about the session [here](https://u14849509.ct.sendgrid.net/ls/click?upn=u001.3elzK6cfU3LQoPv1mzJrDroY1w6UYVJ2WzizrSVdw54AtYZbSk7eLPO4k6WvEfA1fLyhVJEKlAMY6n5LDqoq3w-3D-3D6SsW_Oo6K38iGCdXdr3jcaWmjtJiTcXyuVyztXif7X2ry4B084Ut9CXgnYaT0AzX-2Bgy6y9gq9jEMcuyPbWO-2FroSSXOtgstT2fosxgUhK7oeV-2BSXFQawRDklNrYJF-2BPe5wyRRKBFt45t5fcSwt1qCEsc18ghp2vnYGFADOvkFqlPqnKjZxRSOOXONN0IIyoPwO-2Bi-2Bd8mTDG3dfo-2BeWzRGFGR9WauObLUFA-2FRhWWT7f-2BVbOWmHsCvnLXtH6Fy7PyrmocZV4bhcfORTLeZBTB313M0Gr9p116sAKMIEBvYaVqEz28GlT1f9AUZw1pdp5nG7lwn7n).
 
