@@ -1,0 +1,38 @@
+.navbar {
+    height: 10%;
+    width: 100%;
+    background-color: #131034;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    top: 0;
+    z-index: 1000;
+}
+
+.navbarLogo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    width: 50px;
+    /* Adjust width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.navbarLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbarLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbarLink:hover {
+    color: #3b82f6;
+}

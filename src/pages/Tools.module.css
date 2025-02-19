@@ -1,0 +1,149 @@
+.container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 4rem 1rem;
+  background-color: #131034;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.buttonGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.button {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.button:disabled {
+  background-color: #6b7280;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.showLogo {
+  background-color: #3b82f6;
+}
+
+.showLogo:hover {
+  background-color: #2563eb;
+}
+
+.showLogo:active {
+  background-color: #1d4ed8;
+}
+
+.clearLogo {
+  background-color: #ef4444;
+}
+
+.clearLogo:hover {
+  background-color: #dc2626;
+}
+
+.clearLogo:active {
+  background-color: #b91c1c;
+}
+
+.flyToLocation {
+  background-color: #22c55e;
+}
+
+.flyToLocation:hover {
+  background-color: #16a34a;
+}
+
+.flyToLocation:active {
+  background-color: #15803d;
+}
+
+.relaunchLG {
+  background-color: #f59e0b;
+}
+
+.relaunchLG:hover {
+  background-color: #d97706;
+}
+
+.relaunchLG:active {
+  background-color: #b45309;
+}
+
+.rebootLG {
+  background-color: #8b5cf6;
+}
+
+.rebootLG:hover {
+  background-color: #7c3aed;
+}
+
+.rebootLG:active {
+  background-color: #6d28d9;
+}
+
+.shutdownLG {
+  background-color: #f87171;
+}
+
+.shutdownLG:hover {
+  background-color: #ef4444;
+}
+
+.shutdownLG:active {
+  background-color: #dc2626;
+}
+
+.statusContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.statusIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.connected .statusIndicator {
+  background-color: #22c55e;
+}
+
+.disconnected .statusIndicator {
+  background-color: #ef4444;
+}
+
+.statusText {
+  font-size: 1rem;
+  font-weight: 600;
+}
